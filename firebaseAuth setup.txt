@@ -1,0 +1,22 @@
+setup firebase android
+- ubah package dalam android/app/buld.gradle -> default config
+- ubah package dalam androidmanifest.xml main
+- ubah package dalam androidmanifest.xml debug
+- copy permission INTERNET from androidmanifest debug to androidmanifest main
+- mengubah folder default dalam android/app/main/kotlin/.../.../...
+- dan tambahkan package yang sudah di setup di MainActivity.kt
+- tambahkan package yang sudah di setup ke firebase
+- SHA1 didapatkan apabila sudah intall java lalu jalankan dalam folder bin java paste code yang berasal dari dokumentasi firebase
+- download google-service.json letakan dalam folder android/app
+- copy path google-service ke dalam folder android/build.gradle
+- copy apply plugin ke dalam folder android/app/build.gradle
+
+
+
+setup dynamic link firebase :
+- set up dynamic link di firebase.com
+- set up API untuk menghandle apa yang akan dishare linknya
+- set up firebase Dynamic Link Service
+- set up firebase Dynamic Link pada tampilan awal aplikasi
+- set up product detail untuk API method getProdukDetail()
+- call produk detail API di dynamic link Service
